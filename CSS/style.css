@@ -88,6 +88,41 @@ h1,h2,h3,h4,h5{
     padding-right: 15px;
 }
 
+/* dropdown-menu */
+
+.dropdown-menu{
+  padding: 10px;
+  overflow: hidden;
+  list-style-type: none;
+  transition: max-height 0.5s ease-out;
+  position: absolute;
+  min-width: 8em;
+  right: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: 0 20px 62px rgba(4, 20, 69, .1);
+}
+
+.dropdown-menu a{
+  color: black;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.dropdown-menu a:hover{
+  color:#fb811e;
+  background: white;
+}
+
+
 /* responsive for header */
 @media only screen and (max-width:991px){
     header .main__header{
