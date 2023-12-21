@@ -88,6 +88,41 @@ h1,h2,h3,h4,h5{
     padding-right: 15px;
 }
 
+/* dropdown-menu */
+
+.dropdown-menu{
+  padding: 10px;
+  overflow: hidden;
+  list-style-type: none;
+  transition: max-height 0.5s ease-out;
+  position: absolute;
+  min-width: 8em;
+  right: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: 0 20px 62px rgba(4, 20, 69, .1);
+}
+
+.dropdown-menu a{
+  color: black;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.dropdown-menu a:hover{
+  color:#fb811e;
+  background: white;
+}
+
+
 
 /* Banner */
 /* set position banner left above carrousel on right */
@@ -1014,4 +1049,57 @@ a.testi-img {
   text-align: center;
   transition: all 0.5s;
   
+}
+
+/* Choose Section */
+/* Chinh style content left */
+.choose__left h5{
+    font-size: 22px;
+    font-weight: 300;
+    color:#fb811e
+}
+
+.choose__left h2{
+    font-weight: 600;
+    line-height: 49px;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.staff span{
+    font-size:30px;
+    color:#fb811e
+}
+.staff h4{
+    font-weight: 600;
+}
+
+/* right content */
+.choose__right .right-img{
+    border-radius:30px
+}
+
+.choose__right .year{
+    padding: 40px;
+    background-color:#fb811e;
+    color:white;
+    border-radius:0 0 100px 0;
+    text-align: center;
+    min-width: 300px;
+    position: absolute;
+    left: -83px;
+    bottom: 38px;
+    box-shadow: 30px 30px 30px rgb(0,0,0,.2);
+}
+
+.choose__right .year h4{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.choose__right .year p{
+    font-weight: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
