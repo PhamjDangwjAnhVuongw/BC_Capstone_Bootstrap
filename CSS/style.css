@@ -1146,6 +1146,12 @@ a.testi-img {
 .dark .card-item a{
   color:#fff;
 }
+.dark .card-body{
+  background-color:#222222;
+}
+.dark .card-subTitle{
+  color: #fff;
+}
 
 
 /* back to top button */
