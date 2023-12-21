@@ -12,7 +12,6 @@ h1,h2,h3,h4,h5{
     font-family:'Volkhov', serif;
 }
 
-
 /* Button style dung chung */
 .btn-style{
     /* margin-top: 25px; */
@@ -26,11 +25,16 @@ h1,h2,h3,h4,h5{
     color: #fff;
     border-radius: 30px;
     transition: all .5s;
+    border:0px
 }
 .btn-style:hover{
     background-color: #009f4d;
     color: #fff;
 }
+
+
+
+
 
 
 /* HEADER */
@@ -199,7 +203,7 @@ h1,h2,h3,h4,h5{
 
 /* Grow Section */
 /* left-side style */
-.grow__left h5{
+.grow__left .grow_left_title{
     font-size: 23px;
     color: #fb811e;
 }
@@ -1053,7 +1057,7 @@ a.testi-img {
 
 /* Choose Section */
 /* Chinh style content left */
-.choose__left h5{
+.choose__left .choose__left__title{
     font-size: 22px;
     font-weight: 300;
     color:#fb811e
@@ -1102,4 +1106,74 @@ a.testi-img {
     font-weight: 18px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+
+/* light theme */
+#myBody{
+  background-color:white;
+}
+#switchButton .fa-sun{
+  /* color:white; */
+  display: none;
+}
+#switchButton .fa-moon{
+  display: block;
+  color:black;
+  font-size: 20px;
+}
+/* dark theme */
+.dark#myBody{
+  background-color:#222222;
+}
+.dark #switchButton .fa-sun{
+  display:block;
+}
+.dark #switchButton .fa-moon{
+  display:none;
+}
+
+.dark h1, .dark h2,.dark h3,.dark h4,.dark h5{
+  color:#fff;
+}
+
+.dark .banner__left .fade-text{
+  color:#0b0d0e
+}
+.dark .card-item{
+  background-color:#222222;
+}
+.dark .card-item a{
+  color:#fff;
+}
+
+
+/* back to top button */
+/* BACK TO TOP BUTTON */
+.backToTop{
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+  /* font-size: 22px; */
+  color: white;
+  line-height: 50px;
+  background-color:#009f4d;
+  border-radius: 8px;
+
+  /* mac ding di theo the cha body */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  /* khong hien thi o dau trang */
+  opacity: 0;
+  visibility: hidden;
+  
+  z-index: 100;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
 }
