@@ -1132,6 +1132,7 @@ a.testi-img {
 }
 .dark #switchButton .fa-sun{
   display:block;
+  color:#fff
 }
 .dark #switchButton .fa-moon{
   display:none;
@@ -1155,6 +1156,9 @@ a.testi-img {
 }
 .dark .card-subTitle{
   color: #fff;
+}
+.dark .dropdown i{
+  color:white
 }
 
 
