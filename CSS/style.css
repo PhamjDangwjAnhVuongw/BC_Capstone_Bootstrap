@@ -1015,3 +1015,56 @@ a.testi-img {
   transition: all 0.5s;
   
 }
+
+/* Choose Section */
+/* Chinh style content left */
+.choose__left h5{
+    font-size: 22px;
+    font-weight: 300;
+    color:#fb811e
+}
+
+.choose__left h2{
+    font-weight: 600;
+    line-height: 49px;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.staff span{
+    font-size:30px;
+    color:#fb811e
+}
+.staff h4{
+    font-weight: 600;
+}
+
+/* right content */
+.choose__right .right-img{
+    border-radius:30px
+}
+
+.choose__right .year{
+    padding: 40px;
+    background-color:#fb811e;
+    color:white;
+    border-radius:0 0 100px 0;
+    text-align: center;
+    min-width: 300px;
+    position: absolute;
+    left: -83px;
+    bottom: 38px;
+    box-shadow: 30px 30px 30px rgb(0,0,0,.2);
+}
+
+.choose__right .year h4{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.choose__right .year p{
+    font-weight: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
