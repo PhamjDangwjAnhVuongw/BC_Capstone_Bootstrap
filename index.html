@@ -33,7 +33,11 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-
+     <!--Fancybox CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+   />
     <!-- Main Css -->
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
@@ -423,7 +427,11 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g1.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+              data-src="./img/g1.jpg"
+              data-caption="image 1"
+              data-thumb="./img/g1.jpg"
+              class="js-img-viwer">
               <figure>
                 <img src="./img/g1.jpg" alt="img_g1" class="img-fluid">
                 <h5 class="gall-text">Fresh Carrots</h5>
@@ -433,7 +441,11 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g2.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+            data-src="./img/g2.jpg"
+            data-caption="image 1"
+            data-thumb="./img/g2.jpg"
+            class="js-img-viwer">
               <figure>
                 <img src="./img/g2.jpg" alt="img_g2" class="img-fluid">
                 <h5 class="gall-text">Strawberry</h5>
@@ -443,7 +455,11 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g3.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+              data-src="./img/g3.jpg"
+              data-caption="image 1"
+              data-thumb="./img/g3.jpg"
+              class="js-img-viwer">
               <figure>
                 <img src="./img/g3.jpg" alt="img_g3" class="img-fluid">
                 <h5 class="gall-text">Our Farm</h5>
@@ -453,7 +469,11 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g4.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+              data-src="./img/g4.jpg"
+              data-caption="image 1"
+              data-thumb="./img/g4.jpg"
+              class="js-img-viwer">
               <figure>
                 <img src="./img/g4.jpg" alt="img_g4" class="img-fluid">
                 <h5 class="gall-text">Fresh Apples</h5>
@@ -463,7 +483,10 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g5.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+              data-src="./img/g5.jpg"
+              data-caption="image 1"
+              data-thumb="./img/g5.jpg" class="js-img-viwer">
               <figure>
                 <img src="./img/g5.jpg" alt="img_g5" class="img-fluid">
                 <h5 class="gall-text">Awesome Fields</h5>
@@ -473,7 +496,10 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g6.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+              data-src="./img/g6.jpg"
+              data-caption="image 1"
+              data-thumb="./img/g6.jpg" class="js-img-viwer">
               <figure>
                 <img src="./img/g6.jpg" alt="img_g6" class="img-fluid">
                 <h5 class="gall-text">Fresh Grapes</h5>
@@ -483,7 +509,10 @@
         </div>
         <div class="col-lg-3 col-6 gallery-img-grid hover14 column ">
           <div class="gallery__effect">
-            <a href="./img/g7.jpg" class="js-img-viwer">
+            <a data-fancybox="gallery"
+              data-src="./img/g7.jpg"
+              data-caption="image 1"
+              data-thumb="./img/g7.jpg" class="js-img-viwer">
               <figure>
                 <img src="./img/g7.jpg" alt="img_g7" class="img-fluid">
                 <h5 class="gall-text">Hot Papper</h5>
@@ -670,6 +699,9 @@
       })
     })
   </script>
+
+  <!-- Fancybox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
   <!-- back-to-top JS -->
   <script src="./JS/main.js"></script>

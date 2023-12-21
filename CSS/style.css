@@ -514,6 +514,10 @@ li {
   }
 }
 
+/* hieu ung con tro khi hover vo hinh trong gallery */
+.gallery .gallery__effect a{
+  cursor:pointer;
+}
 
 
 /* 7. TESTIMONIALS */
