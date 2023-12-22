@@ -267,6 +267,16 @@ h1,h2,h3,h4,h5{
 /* Services */
 .Service{
     background-color: #009f4d;
+    padding: 50px 0;
+}
+
+.choose{
+  padding: 20px 0;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
 }
 
 .title-bg{
@@ -439,6 +449,12 @@ li {
 /* 6. GALLERY */
 .gallery .gallery__effect img {
   width: 100%;
+}
+
+.gallery .title{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
 }
 
 .column .gallery__effect {
@@ -1074,17 +1090,18 @@ a.testi-img {
     padding-bottom: 10px;
 }
 
-.staff span{
+.staff i{
     font-size:30px;
-    color:#fb811e
+    color:#fb811e;
+    display: inline-block;
 }
-.staff h4{
+.staff h5{
     font-weight: 600;
 }
 
 /* right content */
-.choose__right .right-img{
-    border-radius:30px
+.choose__right img{
+    border-radius: 30px;
 }
 
 .choose__right .year{
