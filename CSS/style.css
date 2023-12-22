@@ -365,7 +365,7 @@ h1,h2,h3,h4,h5{
 
 /* Grow Section */
 /* left-side style */
-.grow__left .grow_left_title{
+.grow__left h5{
     font-size: 23px;
     color: #fb811e;
 }
